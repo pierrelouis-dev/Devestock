@@ -12,17 +12,23 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Devestock.Classes;
 
 namespace SmartGesture.Page
 {
     /// <summary>
-    /// Logique d'interaction pour connexion.xaml
+    /// Logique d'interaction pour Page2.xaml
     /// </summary>
-    public partial class connexion : Page
+    public partial class Page2
     {
-        public connexion()
+        public Page2()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

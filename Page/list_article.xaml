@@ -1,0 +1,36 @@
+﻿<Page x:Class="SmartGesture.Page.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SmartGesture.Page"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page2">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FFDEE5E8" HorizontalAlignment="Left" Height="430" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="780" Grid.RowSpan="2"/>
+        <Rectangle Fill="#FFD2DFE4" HorizontalAlignment="Left" Height="322" Margin="27,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="745" Grid.RowSpan="2"/>
+        <Button Content="Catégorie" HorizontalAlignment="Left" Margin="49,174,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Enplacement" HorizontalAlignment="Left" Margin="139,174,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.163,0.533"/>
+        <Button Content="Référence" HorizontalAlignment="Left" Margin="245,174,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Désignation" HorizontalAlignment="Left" Margin="325,174,0,0" VerticalAlignment="Top" Width="138"/>
+        <Button Content="Etat" HorizontalAlignment="Left" Margin="482,174,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button Content="Stock" HorizontalAlignment="Left" Margin="580,174,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Actions " HorizontalAlignment="Left" Margin="673,174,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="recherche" Content="Rechercher " HorizontalAlignment="Left" Margin="673,120,0,0" VerticalAlignment="Top" Width="61" Height="18" FontSize="8" Foreground="#FF1832D4" Background="White"/>
+        <Button x:Name="filtre_desciption" Content="Désignation" HorizontalAlignment="Left" Margin="352,118,0,0" VerticalAlignment="Top" Width="152" Background="White" FontSize="10" Height="22"/>
+        <Button x:Name="filtre_reference" Content="Référence" HorizontalAlignment="Left" Margin="258,118,0,0" VerticalAlignment="Top" Width="75" Background="White" FontSize="10" Height="22"/>
+        <Button x:Name="filtre_emplacement" Content="Enplacement" HorizontalAlignment="Left" Margin="139,118,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.163,0.533" Background="White" FontSize="10" Height="20"/>
+        <Button x:Name="filtre_categorie" Content="Catégorie" HorizontalAlignment="Left" Margin="49,118,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.287,0.45" Background="White" FontSize="10" Height="20"/>
+        <Button x:Name="filtre_etat_stock" Content="Etat du stock " HorizontalAlignment="Left" Margin="534,118,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click" Background="White" FontSize="10" Height="22"/>
+        <Image HorizontalAlignment="Left" Height="58" Margin="27,22,0,0" VerticalAlignment="Top" Width="67" Source="Blue_Technology_&amp;_Gaming_Logo_(1).png"/>
+        <Label Content="Liste des produits" HorizontalAlignment="Left" Margin="99,35,0,0" VerticalAlignment="Top" Width="110" Background="#FF6E92F0" Foreground="White"/>
+        <Button Content="Faire un devis" HorizontalAlignment="Left" Margin="214,35,0,0" VerticalAlignment="Top" Width="106" RenderTransformOrigin="-1.047,-2.05" Height="26" Background="White"/>
+
+    </Grid>
+</Page>
