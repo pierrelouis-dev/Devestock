@@ -13,13 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SmartGesture.Pages
+namespace Devestock.Page
 {
     /// <summary>
     /// Logique d'interaction pour Page1.xaml
     /// </summary>
     public partial class Page1 : Page
     {
+        List<>
         public Page1()
         {
             InitializeComponent();

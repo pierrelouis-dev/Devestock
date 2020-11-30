@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SmartGesture.Page
+namespace Devestock.Page
 {
     /// <summary>
     /// Logique d'interaction pour connexion.xaml

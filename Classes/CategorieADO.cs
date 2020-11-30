@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Devestock.Classes;
 
-namespace SmartGesture.Classes
+namespace Devestock.Classes
 {
     class CategorieADO : BDDClasse
     {

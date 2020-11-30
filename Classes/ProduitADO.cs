@@ -7,7 +7,7 @@ using Devestock.Classes;
 using Devestock.Classes;
 using MySql.Data.MySqlClient;
 
-namespace SmartGesture.Classes
+namespace Devestock.Classes
 {
     class ProduitADO : BDDClasse
     {
